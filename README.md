@@ -18,13 +18,48 @@
 
     To get a local copy up and running follow these simple steps.
 
-## Install
+## :arrow_heading_down: Install
 
-    Download the repository.
+1) Clone the repository to your local machine
+```sh
+$ git clone https://github.com/mcervantes71/********.git
+```
 
-## Usage
+2) cd into the directory
+```sh
+$ cd ********/bin
+```
+
+3) Load the module. 
+```sh
+main
+```
+
+[Optional] Create a softlink
+```sh
+ln -s $PWD/main /usr/local/bin/
+```
+Now, we're done and we can simply type main to invoke our ********!
+
+## :arrow_forward: Usage
 
     In any browser, open the index.html file.
+
+## :vertical_traffic_light: Testing
+[Pre-requisite] 
+``` sh
+bundle install
+```
+
+1) cd into the directory
+```sh
+$ cd *******
+```
+
+2) Load the testing module
+```sh
+$ rspec
+```
 
 ## :busts_in_silhouette: Authors
 
